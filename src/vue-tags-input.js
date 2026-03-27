@@ -431,12 +431,12 @@ export default {
     this.selectDefaultItem()
 
     // We add a event listener to hide autocomplete on blur
-    document.addEventListener('click', this.blurredOnClick)
+    document.addEventListener('click', this.blurredOnClick, { capture: true })
   },
   beforeUpdate () {
     this.tagCenter = []
   },
   unmounted () {
-    document.removeEventListener('click', this.blurredOnClick)
+    document.removeEventListener('click', this.blurredOnClick, { capture: true })
   }
 }
