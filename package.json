@@ -46,12 +46,12 @@
     "vuedraggable": "^4.1.0"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.2.3",
+    "@vitejs/plugin-vue": "^6.0.7",
     "eslint": "^8.56.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-vue": "^9.19.2",
     "sass": "^1.66.1",
-    "vite": "^4.4.5",
+    "vite": "^8.1.0",
     "vite-plugin-libcss": "^1.1.1"
   }
 }
